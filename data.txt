@@ -276,11 +276,11 @@
 
 140. Shadi Mohammed Zaareb (21) killed in Rafah
 
-141. Imad Bassan Zaareb (21) killed in Rafah
+141.Imad Bassan Zaareb (21) killed in Rafah
 
 142. Nahedh Naim Al Batsh (12) killed in Rafah
 
-143. Bahaa Majed Al Batsh (12) killed in Gaza
+143.Bahaa Majed Al Batsh (12) killed in Gaza
 
 144. Kosai Issam Al Batsh (12) killed in Gaza
 
@@ -292,7 +292,7 @@
 
 148. Yahya alaa al batsh (18) killed in Gaza
 
-149. Jalal Majed Al Batsh (26) killed in Gaza
+149.Jalal Majed Al Batsh (26) killed in Gaza
 
 150. Mahmoud Majed Al Batsh (22) killed in Gaza
 
@@ -328,12 +328,48 @@
 
 166. Haitham Ashraf Al Zooreb (21)
 
-166. Kacem Talal Hamdan (23) Bayt hanoun
+167. Kacem Talal Hamdan (23) Bayt hanoun
 
-167. Maher Thabet Abu Mar Sharq (24) Rafah
+168. Maher Thabet Abu Mar Sharq (24) Rafah
 
-168. Mohamed Salem Abu Briss (65) Deir Al-Balah
+169. Mohamed Salem Abu Briss (65) Deir Al-Balah
 
-169. Saddam Musa Maamar (23) khan Younis
+170. Saddam Musa Maamar (23) khan Younis
 
-170. Musa Shahda (60) Khan Younis
+171. Musa Shahda (60) Khan Younis
+
+172. Hanadi Hamdi Muammar (27) Khan Younis
+
+173. Adham Mohamed Abdel Fattah Abdel Aal (25) Gaza
+
+174. Hamid Sleiman Abu al-Arraj (60) Deir Al-Balah
+
+175. Abdallah Mahmoud Baraka (24) Khan Younis
+
+176. Tamer Salem Qadih (37) Khan Younis
+
+177. Ziad Maher Ennajar (17) Khan Younis
+
+178. Ziad Salem Ashawi (25) Rafah
+
+179. Mohamed Yassir Hamdan (24) Gaza
+
+180. Mohamed Shakib al-Agha (22) Khan Younis
+
+181. Mohamed Younis (25) Khan Younis
+
+182. Sara Omar Sheikh al-Eid (4) Rafah
+
+183. Omar Ahmed Sheikh al-Eid (24) Rafah
+
+184. Jihad Ahmed Sheikh al-Eid (48) Rafah
+
+185. Kamal Atef Youssef Abu Taha (16) Khan Younis
+
+186. Ismaeel Nabil Ahmed Abu Hatab (21) Khan Younis
+
+187. Ahmed Younis Abu Youssef (28) Khan Younis
+
+188. Bochra Khalil Zaarab (53) Rafah
+
+189. Atwa Ameera al-Amour (63) Khan Younis

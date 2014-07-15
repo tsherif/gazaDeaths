@@ -1,4 +1,100 @@
 body {
     font-family: sans-serif;
-    
+    color: #333;
+    margin: 20px;
+}
+
+a {
+    color: #97CEEC;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+div.header {
+    width: 960px;
+    height: 400px;
+    background: #222;
+    color: #EEE;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    -webkit-font-smoothing: antialiased;
+    border-radius: 10px;
+    background-image: url('../img/grievingWoman.jpg');
+    background-size: cover;
+    font-size: 1.3em;
+}
+
+div.header h2 {
+    font-weight: normal;
+}
+
+div.header h3 {
+    background: rgba(255, 255, 255, 0.8);
+    color: #333;
+    border-radius: 10px;
+    padding: 5px;
+    width: 400px;
+    margin: 0 auto;
+}
+
+div.content {
+    width: 1000px;
+    margin: 40px auto 0 auto;
+}
+
+div.list {
+    margin: 30px auto 40px auto;
+}
+
+div.list h1 {
+    font-size: 4em;
+    text-align: center;
+}
+
+div.list h2 {
+    text-align: center;
+}
+
+div.humanBeing {
+    width: 200px;
+    height: 200px;
+    background: rgba(0, 80, 100, 0.1);
+    padding: 10px;
+    float: left;
+    margin: 15px;
+    color: #FFF;
+}
+
+div.humanBeing h2, div.humanBeing h3 {
+    font-weight: normal;
+}
+
+div.charts {
+    height: 450px;
+}
+
+div.chart {
+    float: left;
+    width: 420px;
+    border-radius: 20px;
+    background: rgba(0, 80, 100, 0.1);
+    padding: 20px;
+}
+
+div.chartRight {
+    margin-left: 60px;
+}
+
+div.chart h2 {
+    text-align: center;
+    font-size: 1.8em;
+}
+
+div.chart canvas {
+    display: block;
+    margin: 0 auto;
 }

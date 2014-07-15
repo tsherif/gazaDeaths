@@ -3,14 +3,37 @@
 <head>
 	<meta charset="UTF-8" />
 	<meta name="keywords" content="gaza deaths, gaza death toll, palestinian death toll, gaza war 2014" />
-	<meta name="description" content="Website that displays the Gaza death toll of the July 2014 Israeli war on Gaza." />
+	<meta name="description" content="Memorializing the dead in the July 2014 Gaza conflict." />
 	<title>gazaDeaths.com</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css" />
 	<script type="application/javascript" src="js/jquery.js"></script>
+	<script type="application/javascript" src="js/mustache.js"></script>
 	<script type="application/javascript" src="js/chart.js"></script>
 	<script type="application/javascript" src="js/gazaDeaths.js"></script>
+	<script type="application/javascript" src="js/templates.js"></script>
 </head>
 <body>
-
+	<div class="header">
+		<br /><br /><br />
+		<h1>gazaDeaths.com</h1>
+		<h2>Memorializing the dead in the July 2014 Gaza conflict.</h2>
+		<h3>Data last updated July 15, 2014</h3>
+		<h4>Contribute to this project on <a href="https://github.com/kaepora/gazaDeaths/tree/gh-pages">GitHub</a>.</h4>
+	</div>
+	<div class="content">
+		<div class="charts">
+			<div class="genderChart chart">
+				<h2>Gender</h2>
+				<canvas width="300" height="300"></canvas>
+			</div>
+			<div class="childrenChart chart chartRight">
+				<h2>Children/Adult Ratio</h2>
+				<canvas width="300" height="300"></canvas>
+			</div>
+		</div>
+		<div class="list">
+			<h1><span class="deadCount"></span> Dead Palestinians</h1>
+		</div>
+	</div>
 </body>
 </html>
