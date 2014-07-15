@@ -80,7 +80,7 @@
 
 41. Amal Yousef Abdel Ghafour (Female) (unreported age)
 
-42. Raneem Judeh Abdel Ghafour (Young girl of unreported age)
+42. Raneem Judeh Abdel Ghafour (Female) (11)
 
 43. Ibrahim Daoud Al-Balaawi (24)
 
@@ -190,7 +190,7 @@
 
 96. Bassam Abdel Rahman Khattab (6)
 
-97. Jumaa Atiah Shallouf (Unreported age)
+97. Jumaa Atiah Shallouf (Female) (Unreported age)
 
 98. Noor Rafik Udai Al-Sultan (Unreported age)
 
@@ -224,9 +224,9 @@
 
 113. Mohammed Idris Abu Sanena (20) Killed in Jabalia
 
-114. Hala Weshahi (31) Killed in the disabled centre in Jabalia
+114. Hala Weshahi (Female) (31) Killed in the disabled centre in Jabalia
 
-115. Suha Abu Saada (38) Killed in the disabled centre in Jabalia
+115. Suha Abu Saada (Female) (38) Killed in the disabled centre in Jabalia
 
 116. Ali Nabil Basal (32) Killed in Gaza
 
@@ -250,7 +250,7 @@
 
 127. Mustafa Mohammed Taha Anabe (58) killed in shelling on Radwan street
 
-128. Rifaat Yousef Amer (36) Killed in Gaza
+128. Rifaat Yousef Amer (Female) (36) Killed in Gaza
 
 129. Ghazi Mustafa Areef (62) killed in Gaza
 
@@ -268,23 +268,23 @@
 
 136. Mahmoud Lutfi Al-Hajj
 
-137.Mohammad Ahmed Bassa (19) killed in Gaza
+137. Mohammad Ahmed Bassa (19) killed in Gaza
 
-138.Mohannad Youusef Dhahir (23) killed in Rafah
+138. Mohannad Youusef Dhahir (23) killed in Rafah
 
-139.Mahmoud Abdallah Charatha (53)
+139. Mahmoud Abdallah Charatha (53)
 
 140. Shadi Mohammed Zaareb (21) killed in Rafah
 
-141.Imad Bassan Zaareb (21) killed in Rafah
+141. Imad Bassan Zaareb (21) killed in Rafah
 
 142. Nahedh Naim Al Batsh (12) killed in Rafah
 
-143.Bahaa Majed Al Batsh (12) killed in Gaza
+143. Bahaa Majed Al Batsh (Female) (12) killed in Gaza
 
 144. Kosai Issam Al Batsh (12) killed in Gaza
 
-145. Aziza Youssef Al Batsh (57) killed in Gaza
+145. Aziza Youssef Al Batsh (Female) (57) killed in Gaza
 
 146. Mohammed Issam Al Batsh (17) killed in Gaza
 
@@ -292,39 +292,39 @@
 
 148. Yahya alaa al batsh (18) killed in Gaza
 
-149.Jalal Majed Al Batsh (26) killed in Gaza
+149. Jalal Majed Al Batsh (26) killed in Gaza
 
 150. Mahmoud Majed Al Batsh (22) killed in Gaza
 
-151.Marwa Majed Al Batsh (25) killed in Gaza
+151. Marwa Majed Al Batsh (Female) (25) killed in Gaza
 
-152.Majed Sobhi Al Batsh killed in Gaza
+152. Majed Sobhi Al Batsh killed in Gaza
 
-153.Khaled Majed Al Batsh (20) killed in Gaza
+153. Khaled Majed Al Batsh (20) killed in Gaza
 
-154.Ibrahim Majed Al Batsh (18) killed in Gaza
+154. Ibrahim Majed Al Batsh (18) killed in Gaza
 
 155. Manar Majed Al Batsh (13) killed in Gaza
 
-156.Amal Hassan Al Batsh (49) killed in Gaza
+156. Amal Hassan Al Batsh (Female) 49) killed in Gaza
 
-157.Anas Alaa Al Batsh (10) killed in Gaza
+157. Anas Alaa Al Batsh (10) killed in Gaza
 
 158. Kosai Alaa Al Batsh Killed in Gaza
 
-159.Rami Abu Chanab (25) killed in Deil El Balah
+159. Rami Abu Chanab (25) killed in Deil El Balah
 
-160.Mohammed Ghazi Areef (35) killed in Gaza
+160. Mohammed Ghazi Areef (35) killed in Gaza
 
 161. Hejaziya Hamed AL Helw (80)
 
-162.Fawzeya Abdelal (73) killed in Gaza
+162. Fawzeya Abdelal (Female) (73) killed in Gaza
 
-163.Hossam Ibrahim Al Najjar (14)
+163. Hossam Ibrahim Al Najjar (14)
 
-164.Moayad Al Araj (2) Khan Younis
+164. Moayad Al Araj (2) Khan Younis
 
-165. Layla Hassan Al Awdat (41)
+165. Layla Hassan Al Awdat (Female) (41)
 
 166. Haitham Ashraf Al Zooreb (21)
 
@@ -338,7 +338,7 @@
 
 171. Musa Shahda (60) Khan Younis
 
-172. Hanadi Hamdi Muammar (27) Khan Younis
+172. Hanadi Hamdi Muammar (Female) (27) Khan Younis
 
 173. Adham Mohamed Abdel Fattah Abdel Aal (25) Gaza
 
@@ -358,7 +358,7 @@
 
 181. Mohamed Younis (25) Khan Younis
 
-182. Sara Omar Sheikh al-Eid (4) Rafah
+182. Sara Omar Sheikh al-Eid (Female) (4) Rafah
 
 183. Omar Ahmed Sheikh al-Eid (24) Rafah
 
@@ -370,9 +370,9 @@
 
 187. Ahmed Younis Abu Youssef (28) Khan Younis
 
-188. Bochra Khalil Zaarab (53) Rafah
+188. Bochra Khalil Zaarab (Female) (53) Rafah
 
-189. Atwa Umeir Al-Ammour (63) Khan Younis
+189. Atwa Umeir Al-Ammour (Female) (63) Khan Younis
 
 190. Ismael Salim Al-Najjar (46) Khan Younis
 
