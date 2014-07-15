@@ -206,7 +206,7 @@
 
 104. Hussein Al-Mamlouk (47)
 
-105.  Saber Sukkar (80)
+105  Saber Sukkar (80)
 
 106. Nasser Mohammed Sammame (49)
 
@@ -268,11 +268,11 @@
 
 136. Mahmoud Lutfi Al-Hajj
 
-137. Mohammad Ahmed Bassa (19) killed in Gaza
+137.Mohammad Ahmed Bassa (19) killed in Gaza
 
-138. Mohannad Youusef Dhahir (23) killed in Rafah
+138.Mohannad Youusef Dhahir (23) killed in Rafah
 
-139. Mahmoud Abdallah Charatha (53)
+139.Mahmoud Abdallah Charatha (53)
 
 140. Shadi Mohammed Zaareb (21) killed in Rafah
 
@@ -296,33 +296,33 @@
 
 150. Mahmoud Majed Al Batsh (22) killed in Gaza
 
-151. Marwa Majed Al Batsh (25) killed in Gaza
+151.Marwa Majed Al Batsh (25) killed in Gaza
 
-152. Majed Sobhi Al Batsh killed in Gaza
+152.Majed Sobhi Al Batsh killed in Gaza
 
-153. Khaled Majed Al Batsh (20) killed in Gaza
+153.Khaled Majed Al Batsh (20) killed in Gaza
 
-154. Ibrahim Majed Al Batsh (18) killed in Gaza
+154.Ibrahim Majed Al Batsh (18) killed in Gaza
 
 155. Manar Majed Al Batsh (13) killed in Gaza
 
-156. Amal Hassan Al Batsh (49) killed in Gaza
+156.Amal Hassan Al Batsh (49) killed in Gaza
 
-157. Anas Alaa Al Batsh (10) killed in Gaza
+157.Anas Alaa Al Batsh (10) killed in Gaza
 
 158. Kosai Alaa Al Batsh Killed in Gaza
 
-159. Rami Abu Chanab (25) killed in Deil El Balah
+159.Rami Abu Chanab (25) killed in Deil El Balah
 
-160. Mohammed Ghazi Areef (35) killed in Gaza
+160.Mohammed Ghazi Areef (35) killed in Gaza
 
 161. Hejaziya Hamed AL Helw (80)
 
-162. Fawzeya Abdelal (73) killed in Gaza
+162.Fawzeya Abdelal (73) killed in Gaza
 
-163. Hossam Ibrahim Al Najjar (14)
+163.Hossam Ibrahim Al Najjar (14)
 
-164. Moayad Al Araj (2) Khan Younis
+164.Moayad Al Araj (2) Khan Younis
 
 165. Layla Hassan Al Awdat (41)
 
@@ -372,4 +372,10 @@
 
 188. Bochra Khalil Zaarab (53) Rafah
 
-189. Atwa Ameera al-Amour (63) Khan Younis
+189. Atwa Umeir Al-Ammour (63) Khan Younis
+
+190. Ismael Salim Al-Najjar (46) Khan Younis
+
+191. Mohammed Ahmed Ibrahim Al-Najjar (49) Khan Younis
+
+192. Suleiman Abu Louli (33) Khan Younis
