@@ -1,7 +1,7 @@
 // https://github.com/kaepora/gazaDeaths
 var gazaDeaths = {}
 
-$.get('parsed.json', function(response) {
+$.getJSON('parsed.json', function(response) {
 
 'use strict';
 gazaDeaths.data = response
@@ -13,6 +13,7 @@ gazaDeaths.data = response
         if (gazaDeaths.data.hasOwnProperty(i)) {
             var personType = ''
             var personColor = ''
+            var personFontColor = '#FFFFFF'
             if (gazaDeaths.data[i].gender === 'male') {
                 if (
                     gazaDeaths.data[i].age
@@ -20,6 +21,7 @@ gazaDeaths.data = response
                 ) {
                     personType  = 'Young boy'
                     personColor = '#ABDCD6'
+                    personFontColor = '#3B6380'
                 }
                 else {
                     personType  = 'Man'
@@ -33,6 +35,7 @@ gazaDeaths.data = response
                 ) {
                     personType  = 'Young girl'
                     personColor = '#E2C6E0'
+                    personFontColor = '#815B80'
                 }
                 else {
                     personType  = 'Woman'
@@ -47,7 +50,8 @@ gazaDeaths.data = response
                 name: i,
                 type: personType,
                 age: age,
-                personColor: personColor
+                personColor: personColor,
+                personFontColor: personFontColor
             })).appendTo('div.list')
 
         }
