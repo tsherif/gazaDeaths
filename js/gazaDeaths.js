@@ -16,7 +16,7 @@ gazaDeaths.data = response
             if (gazaDeaths.data[i].gender === 'male') {
                 if (
                     gazaDeaths.data[i].age
-                    && gazaDeaths.data[i].age < 21
+                    && gazaDeaths.data[i].age < 24
                 ) {
                     personType  = 'Young boy'
                     personColor = '#ABDCD6'
@@ -29,7 +29,7 @@ gazaDeaths.data = response
             if (gazaDeaths.data[i].gender === 'female') {
                 if (
                     gazaDeaths.data[i].age
-                    && gazaDeaths.data[i].age < 21
+                    && gazaDeaths.data[i].age < 24
                 ) {
                     personType  = 'Young girl'
                     personColor = '#E2C6E0'
