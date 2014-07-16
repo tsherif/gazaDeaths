@@ -1,5 +1,7 @@
 // https://github.com/kaepora/gazaDeaths
 var gazaDeaths = {}
+var ageChart = null
+var genderChart = null
 
 $.getJSON('parsed.json', function(response) {
 
@@ -90,7 +92,12 @@ function drawGenderChart() {
             }
         }
     }
-    var genderChart = new Chart(
+
+    if (genderChart) {
+        genderChart.destroy();
+    }
+
+    genderChart = new Chart(
         $('div.genderChart canvas').get(0).getContext('2d')
     ).Pie(
         [
@@ -138,7 +145,12 @@ function drawAgeChart() {
             }
         }
     }
-    var childrenChart = new Chart(
+
+    if (ageChart) {
+        ageChart.destroy();
+    }
+
+    ageChart = new Chart(
         $('div.childrenChart canvas').get(0).getContext('2d')
     ).Pie(
         [
