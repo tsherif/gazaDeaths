@@ -20,12 +20,10 @@ gazaDeaths.getJSON = function(filename) {
             gender: null,
             grantedDignity: false
         }
-        humanBeing.name = dead[l].match(/((\w|\-)+\s){2,5}/)[0]
-        humanBeing.age  = dead[l].match(/\(\d{1,3}\)/)
+        humanBeing.name = dead[l].match(/((\w|\-)+\s){1,4}(\w|\-)+/)[0]
+        humanBeing.age  = dead[l].match(/\s\d{1,3}/)
         if (humanBeing.age) {
-            humanBeing.age = humanBeing.age[0].substring(
-                1, humanBeing.age[0].length - 1
-            )
+            humanBeing.age = humanBeing.age[0].substring(1)
         }
         if (dead[l].match(/female/i)) {
             humanBeing.gender = 'female'
