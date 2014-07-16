@@ -22,7 +22,7 @@ $(document).ready(draw)
             if (gazaDeaths.data[i].gender === 'male') {
                 if (
                     gazaDeaths.data[i].age
-                    && gazaDeaths.data[i].age < 24
+                    && gazaDeaths.data[i].age < 21
                 ) {
                     personType  = 'boy'
                     personColor = '#ABDCD6'
@@ -36,7 +36,7 @@ $(document).ready(draw)
             if (gazaDeaths.data[i].gender === 'female') {
                 if (
                     gazaDeaths.data[i].age
-                    && gazaDeaths.data[i].age < 24
+                    && gazaDeaths.data[i].age < 21
                 ) {
                     personType  = 'girl'
                     personColor = '#E2C6E0'
@@ -130,10 +130,10 @@ function drawAgeChart() {
             if (!gazaDeaths.data[i].age) {
                 ratio.unknown++
             }
-            else if (gazaDeaths.data[i].age >= 24) {
+            else if (gazaDeaths.data[i].age >= 21) {
                 ratio.adults++
             }
-            else if (gazaDeaths.data[i].age < 24) {
+            else if (gazaDeaths.data[i].age < 21) {
                 ratio.children++
             }
         }
@@ -177,7 +177,7 @@ function setCanvasSize() {
             this.width = 200
             this.height = 200
         })
-    } 
+    }
 }
 
 function draw() {
