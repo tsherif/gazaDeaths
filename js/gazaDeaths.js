@@ -1,10 +1,15 @@
 // https://github.com/kaepora/gazaDeaths
 var gazaDeaths = {}
 
-$.get('parsed.json', function(response) {
+$.getJSON('parsed.json', function(response) {
 
 'use strict';
 gazaDeaths.data = response
+
+
+$(window).resize(draw)
+$(document).ready(draw)
+
 
 // List
 ;(function() {
@@ -13,16 +18,18 @@ gazaDeaths.data = response
         if (gazaDeaths.data.hasOwnProperty(i)) {
             var personType = ''
             var personColor = ''
+            var personFontColor = '#FFFFFF'
             if (gazaDeaths.data[i].gender === 'male') {
                 if (
                     gazaDeaths.data[i].age
                     && gazaDeaths.data[i].age < 24
                 ) {
-                    personType  = 'Young boy'
+                    personType  = 'boy'
                     personColor = '#ABDCD6'
+                    personFontColor = '#3B6380'
                 }
                 else {
-                    personType  = 'Man'
+                    personType  = 'man'
                     personColor = '#2D5876'
                 }
             }
@@ -31,23 +38,32 @@ gazaDeaths.data = response
                     gazaDeaths.data[i].age
                     && gazaDeaths.data[i].age < 24
                 ) {
-                    personType  = 'Young girl'
+                    personType  = 'girl'
                     personColor = '#E2C6E0'
+                    personFontColor = '#815B80'
                 }
                 else {
-                    personType  = 'Woman'
+                    personType  = 'woman'
                     personColor = '#957494'
                 }
             }
-            var age = 'Unknown'
+            var age = null
+            var description
             if (gazaDeaths.data[i].age) {
                 age = gazaDeaths.data[i].age
             }
+
+            if (age !== null) {
+                description = age + ' year-old ' + personType
+            } else {
+                description = gazaDeaths.data[i].gender + ' of unknown age'
+            }
+
             $(Mustache.render(gazaDeaths.templates.humanBeing, {
                 name: i,
-                type: personType,
-                age: age,
-                personColor: personColor
+                description: description,
+                personColor: personColor,
+                personFontColor: personFontColor
             })).appendTo('div.list')
 
         }
@@ -55,7 +71,7 @@ gazaDeaths.data = response
 })()
 
 // Gender chart
-;(function() {
+function drawGenderChart() {
     var genderCount = {
         male: 0,
         female: 0,
@@ -100,10 +116,10 @@ gazaDeaths.data = response
             animation: false
         }
     )
-})()
+}
 
 // Age chart (with average age)
-;(function() {
+function drawAgeChart() {
     var ratio = {
         children: 0,
         adults: 0,
@@ -122,7 +138,7 @@ gazaDeaths.data = response
             }
         }
     }
-    var genderChart = new Chart(
+    var childrenChart = new Chart(
         $('div.childrenChart canvas').get(0).getContext('2d')
     ).Pie(
         [
@@ -148,7 +164,26 @@ gazaDeaths.data = response
             animation: false
         }
     )
-})()
+}
 
+function setCanvasSize() {
+   if (window.innerWidth > 540) {
+        $("canvas").each(function() {
+            this.width = 300
+            this.height = 300
+        })
+    } else {
+        $("canvas").each(function() {
+            this.width = 200
+            this.height = 200
+        })
+    } 
+}
+
+function draw() {
+    setCanvasSize()
+    drawGenderChart()
+    drawAgeChart()
+}
 
 })
