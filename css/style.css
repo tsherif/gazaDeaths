@@ -60,6 +60,7 @@ div.header h2 {
 }
 
 div.header h3 {
+    display: inline-block;
     background: rgba(255, 255, 255, 0.8);
     color: #333;
     border-radius: 10px;
