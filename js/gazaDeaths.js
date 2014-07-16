@@ -114,10 +114,10 @@ gazaDeaths.data = response
             if (!gazaDeaths.data[i].age) {
                 ratio.unknown++
             }
-            else if (gazaDeaths.data[i].age >= 21) {
+            else if (gazaDeaths.data[i].age >= 24) {
                 ratio.adults++
             }
-            else if (gazaDeaths.data[i].age < 21) {
+            else if (gazaDeaths.data[i].age < 24) {
                 ratio.children++
             }
         }
