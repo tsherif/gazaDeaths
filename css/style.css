@@ -124,6 +124,17 @@ div.chart canvas {
     margin: 0 auto;
 }
 
+div.charter {
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    margin: 0 20px;
+}
+
+div.charter a {
+    color: #3B6380;
+}
+
 @media screen and (max-width: 600px) {
     body {
         font-size: 12px;
