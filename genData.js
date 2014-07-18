@@ -18,10 +18,11 @@ gazaDeaths.getJSON = function(filename) {
             name: '',
             age: null,
             gender: null,
-            grantedDignity: false
+            killingLocation: null 
         }
         humanBeing.name = dead[l].match(/((\w|\-)+\s){1,4}(\w|\-)+/)[0]
         humanBeing.age  = dead[l].match(/\s\d{1,3}/)
+        humanBeing.killingLocation = dead[l].match(/killed in ([A-Za-z \-]+)/) || dead[l].match(/ ([A-Z][A-Za-z \-]+)(\.|$)/)
         if (humanBeing.age) {
             humanBeing.age = humanBeing.age[0].substring(1)
         }
@@ -31,10 +32,14 @@ gazaDeaths.getJSON = function(filename) {
         else {
             humanBeing.gender = 'male'
         }
+        if (humanBeing.killingLocation) {
+            humanBeing.killingLocation = humanBeing.killingLocation[1]
+        }
+
         data[humanBeing.name] = {
             age: humanBeing.age,
             gender: humanBeing.gender,
-            grantedDignity: humanBeing.grantedDignity
+            killingLocation: humanBeing.killingLocation
         }
     }
     return data
@@ -46,5 +51,5 @@ gazaDeaths.writeToFile = function(data, filename) {
 
 gazaDeaths.writeToFile(
     JSON.stringify(gazaDeaths.getJSON('data.txt')),
-    'parsed.json'
+    'gazaDeaths.json'
 )

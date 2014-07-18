@@ -3,7 +3,7 @@ var gazaDeaths = {}
 var ageChart = null
 var genderChart = null
 
-$.getJSON('parsed.json', function(response) {
+$.getJSON('gazaDeaths.json', function(response) {
 
 'use strict';
 gazaDeaths.data = response
