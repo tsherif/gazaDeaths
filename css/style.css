@@ -69,6 +69,14 @@ div.header h3 {
     margin: 0 auto;
 }
 
+div.jsonFeed {
+  font-size: 12px;  
+}
+
+div.jsonFeed a {
+    color: #3B6380;
+}
+
 div.content {
     margin: 40px auto 0 auto;
 }
